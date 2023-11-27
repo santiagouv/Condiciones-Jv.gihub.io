@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stickers</title>
+    <link rel="stylesheet" href="./Assets/Css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="compra">
+        <h1>Maximo 10 stickers por compra</h1>
+        <br>
+        <div class="stickers">
+            <img src="./Assets/Img/duck-hunt_sticker.jpg" alt="duck_hunt">
+            <img src="./Assets/Img/mario_sticker.jpg" alt="mario">
+            <img src="./Assets/Img/megaman_sticker.jpg" alt="megaman">
+        </div>
+        <br>
+        <br>
+        <form class="cantidad">
+            <input type="number" id="sticker1" min="0">
+            <input type="number" id="sticker2" min="0">
+            <input type="number" id="sticker3" min="0">
+        </form>
+    </section>
+    <br>
+    <br>
+    <div class="answer">
+        <h1 id="take"></h1>
+    </div>
+    <br>
+    <br>
+    <section class="valid">
+        <button onclick="comprar()">Comprar</button>
+    </section>
+    <br>
+    <form class="goto">
+        <button type="submit" formaction="./Condiciones3.html">Go To Password</button>
+        <button type="submit" formaction="./Condiciones1.htm">Go To Image</button>
+    </form>
+    <script src="./Assets/Js/Condiciones.js"></script>
+</body>
+</html>
