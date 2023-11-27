@@ -1,2 +1,2 @@
-# Condiciones-Jv.gihub.io
+# Condiciones-Jv.github.io
 condiciones en Js
